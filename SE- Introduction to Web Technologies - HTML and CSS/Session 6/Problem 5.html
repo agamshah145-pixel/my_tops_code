@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BookMyShow Movie Poster</title>
+    <style>
+        .grid{
+            display: flex;
+            gap: 20px;
+           
+        }
+
+        .movies{
+            position: relative;
+            border-radius: 10px;
+            background-color: white;
+            
+        }
+
+
+        .new-badge{
+            position: absolute;
+            top: 10px;
+            left: 15px;
+            background-color: red;
+            color: white;
+            padding: 6px 10px;
+            border-radius: 5px;
+            font-weight: bold;
+            margin-top: 90px;
+        }
+            /* Reusable spacing class
+           Using one class avoids repeating the same margin and padding
+           values in multiple selectors, making the CSS easier to maintain. */
+        .spacing{
+            margin: 10px;
+            padding: 20px;
+        }
+
+
+    </style>
+</head>
+<body>
+    <h1 class="spacing">
+        BookMyShow Movies
+    </h1>
+
+    <div class="grid">
+        <div class="Movies">
+            
+            <img src="c:\Users\WHO ARE YOU\Desktop\project work\images\chrome_pSovZKquHo.jpg" height="300px" alt="Awarapan 2">
+            <span class="new-badge">
+                NEW
+            </span>
+            <h2>
+                Awarapan 2
+            </h2>
+        </div>
+
+        <div class="Movies">
+            <img src="c:\Users\WHO ARE YOU\Desktop\project work\images\chrome_pOoOCQRqX6.jpg" height="300px"  alt="Batwara 1947">
+            <h2>
+                Batwara 1947
+            </h2>
+        </div>
+        <div class="Movies">
+            <img src="c:\Users\WHO ARE YOU\Desktop\project work\images\chrome_ypgz8N86wf.jpg" height="300px"  alt="Dhamaal 4">
+            <h2>
+                Dhamaal 4
+            </h2>
+        </div>
+    </div>
+</body>
+</html>
