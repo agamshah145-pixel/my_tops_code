@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book My show</title>
+
+    <style>
+        body{
+            background-color: white;
+            color: black;
+            margin: 0;
+            padding: 20px;
+            transition: 0.3s;
+        }
+
+        .movie-card{
+            background-color: rgb(223, 218, 218);
+            border-radius: 10px;
+            margin: auto;
+            padding: 20px;
+            max-width: 500px;
+        }
+
+        button {
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            background-color: #e91e63;
+            color: white;
+            margin-bottom: 20px;
+        }
+
+        body.dark-mode {
+            background-color: #121212;
+            color: white;
+        }
+
+        body.dark-mode .movie-card {
+            background-color: #242424;
+        }
+
+        body.dark-mode button {
+            background-color: #ff4081;
+        }
+    </style>
+</head>
+<body>
+    
+    <button onclick="toggleDarkMode()">🌙 Dark Mode</button>
+    <article class="movie-card">
+        <h1>
+            Awarapan 2
+        </h1>
+        <img src="c:\Users\WHO ARE YOU\Desktop\Documents\ShareX\Screenshots\2026-08\chrome_kQPjlIK8t7.png" height="200px" alt="Awarapan 2">
+    
+        <section>
+            <p><b>Genre: </b> Action, Crime, Romantic
+            <p><b>Language: </b>Hindi</p>
+            <p><b>Duration: </b>2h 20min</p>
+            <p><b>Ratings: </b>⭐4.8/5</p>
+        </section>
+
+        <h2>
+            About the Movie
+        </h2>
+        <p>
+            Drawn back into the underworld, Shivam finds his future hinging on redemption, love, and sacrifice. <br>
+            As bonds deepen and conflicts sharpen, each decision he makes tests his resolve and shapes the fate that awaits him.
+        </p>
+    </article>
+
+    <script>
+        function toggleDarkMode() {
+            document.body.classList.toggle("dark-mode");
+        }
+    </script>
+
+</body>
+</html>
