@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Flipkart Product Review Form</title>
+</head>
+<body>
+
+    <h2>Flipkart Product Review</h2>
+
+    <form action="submit_review.php" method="post">
+        
+        <label for="username">Username:</label><br>
+        <input type="text" id="username"  placeholder="Enter your username" required>
+        
+        <br><br>
+
+        <label for="rating">Rating:</label><br>
+        <select id="rating" name="rating" required>
+            <option value=>-- Select Rating --</option>
+            <option>1 Star</option>
+            <option>2 Stars</option>
+            <option>3 Stars</option>
+            <option>4 Stars</option>
+            <option>5 Stars</option>
+        </select>
+        <br><br>
+    
+        <label for="review">Review Message:</label><br>
+        <textarea id="review"  rows="5" cols="40" 
+                  minlength="20"
+                  required>
+                </textarea>
+                  <br><br>
+
+        
+        <input type="submit" value="Submit Review">
+
+    </form>
+
+</body>
+</html>

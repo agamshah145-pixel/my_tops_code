@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Zomato-style food order </title>
+</head>
+<body>
+    <h2><b>Zomato-style food order</b></h2>
+    <label for="username">Username:</label>
+    <input type="text" id="username" required>
+    <br>
+    <br>
+    <label for="food">Food items:</label>
+    <select name="food" id="food">
+        <option value=""selected disabled>--a select dropdown for food item-- </option>
+        <option>Pav bhaji</option>
+        <option>Pizza</option>
+        <option>panjabi thali</option>
+    </select>
+    <br>
+    <br>
+    <label for="number">Quantity</label>
+    <input type="number" id="number" min="1" max="5" required>
+    <br>
+    <br>
+    <label for="textarea">Delivery Instruction:</label><br>
+    <textarea  id="textarea" rows="5" cols="20"></textarea>
+    <br>
+    <br>
+    <input type="submit" value="Place order">
+    <br>
+    <br>
+     <label for="orderid">Order ID:</label><br>
+     <input type="text" id="orderid" value="ORD12345" disabled>
+               
+
+    
+</body>
+</html>
