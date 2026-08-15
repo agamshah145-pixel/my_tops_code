@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Grid</title>
+    <style>
+        .grid{
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            grid-template-rows: repeat(2, 1fr);
+            gap: 20px;
+            padding: 30px;
+            background: rgb(238, 234, 234);
+        }
+
+        .card{
+            border: 1px solid black;
+            border-radius: 10px;
+            text-align: center;
+            padding: 20px;
+        }
+
+        .card img{
+            height: 150px;
+            width: 150px;
+            object-fit: contain;
+
+        }
+
+        .name{
+            font-size: 18px;
+            margin-top: 15px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <div class="grid">
+    <div class="card">
+        <img src="c:\Users\WHO ARE YOU\Pictures\download.jfif" alt="Smartphone">
+    
+        <div class="name">
+        Smartphone
+        </div>
+    </div>
+    <div class="card">
+        <img src="c:\Users\WHO ARE YOU\Pictures\download (1).jfif" alt="Laptop">
+    
+        <div class="name">
+        Laptop
+        </div>
+    </div>
+    <div class="card">
+        <img src="c:\Users\WHO ARE YOU\Pictures\download (2).jfif" alt="Headphones">
+    
+        <div class="name">
+        Headphones
+        </div>
+    </div>
+    <div class="card">
+        <img src="c:\Users\WHO ARE YOU\Pictures\download (3).jfif" alt="Smart Watch">
+    
+        <div class="name">
+        Smart Watch
+        </div>
+    </div>
+    <div class="card">
+        <img src="c:\Users\WHO ARE YOU\Pictures\download (4).jfif" alt="Digital Camera">
+    
+        <div class="name">
+        Digital Camera
+        </div>
+    </div>
+    <div class="card">
+        <img src="c:\Users\WHO ARE YOU\Pictures\download (5).jfif" alt="Shoes">
+    
+        <div class="name">
+        Shoes
+        </div>
+    </div>
+    </div>
+</body>
+</html>
