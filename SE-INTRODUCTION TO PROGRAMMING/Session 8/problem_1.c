@@ -1,8 +1,8 @@
 #include <stdio.h>
 void  getUserInitials(char name[], char initials[])
 {
-    int i =0;
-    int j =0;
+    int i = 0;
+    int j = 0;
     initials[0] = name[0];
     j++;
     while(name[i] != '\0')
@@ -20,11 +20,10 @@ void  getUserInitials(char name[], char initials[])
    
 }
 
-int main()
+void main()
 {
     char name[] = "Rohit Sharma";
     char initials[4];
     getUserInitials(name, initials);
     printf("Name : %s\nInitials: %s",name, initials);
-    return 0;
-}
+}   
